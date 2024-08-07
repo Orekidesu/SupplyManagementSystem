@@ -37,6 +37,7 @@
 
         <!-- Page Content -->
         <main class="flex-grow ml-72">
+
             {{ $slot }}
         </main>
     </div>
