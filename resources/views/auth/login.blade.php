@@ -7,9 +7,9 @@
             <div class="">
                 <h1 class="text-3xl text-red-500"><b>SUPPLY MANAGEMENT SYSTEM</b></h1>
                 <p class="text-justify pt-4">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus repudiandae quidem, tenetur aliquid
-                    mollitia animi est quaerat blanditiis corrupti numquam officia. Voluptatem reprehenderit blanditiis
-                    distinctio esse dolore corporis eligendi similique.
+                    This project is to design and develop a computerized Development of Web-Based Integrated Supply
+                    Office Management System for Biliran Province State University of Supply Office in order to minimize
+                    their current problems in conducting the Inventory and Monitoring of all the stocks.
                 </p>
             </div>
 
