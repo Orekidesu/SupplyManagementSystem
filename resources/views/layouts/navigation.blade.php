@@ -131,7 +131,7 @@
             <div>
                 {{-- search bar --}}
                 <div class="relative flex items-center">
-                    <input type="text" name="query" class="form-control rounded-full w-full" placeholder="Search.">
+                    <input type="text" name="query" class="form-control rounded-full w-full" placeholder="Search">
                     <div>
                         <button type="submit" class="pt-1 absolute inset-y-1 end-0 px-3 text-primary">
                             <span class="material-symbols-outlined">search</span>

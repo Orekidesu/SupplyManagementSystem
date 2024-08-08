@@ -2,10 +2,10 @@
 
 
     <div class="py-12">
-        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+        <div class=" mx-auto sm:px-6 lg:px-8">
             <div class=" overflow-hidden shadow-sm text-black sm:rounded-lg">
                 <center>
-                    <h1 class="text-3xl">SUPPLY MANAGEMENT SYSTEM</h1>
+                    <h1 class="text-5xl">SUPPLY MANAGEMENT SYSTEM</h1>
                 </center>
             </div>
         </div>
