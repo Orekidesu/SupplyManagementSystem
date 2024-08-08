@@ -160,19 +160,19 @@
 
 
 
-                <x-nav-link :href="route('dashboard')" :active="request()->routeIs('')">
+                <x-nav-link :href="route('transactions')" :active="request()->routeIs('transactions')">
                     <div class="px-4">
                         <span>Transactions</span>
                     </div>
                 </x-nav-link>
 
-                <x-nav-link :href="route('dashboard')" :active="request()->routeIs('')">
+                <x-nav-link :href="route('reports')" :active="request()->routeIs('reports')">
                     <div class="px-4">
                         <span>Reports</span>
                     </div>
                 </x-nav-link>
 
-                <x-nav-link :href="route('dashboard')" :active="request()->routeIs('')">
+                <x-nav-link :href="route('stocks')" :active="request()->routeIs('stocks')">
                     <div class="px-4">
                         <span>Stocks</span>
                     </div>

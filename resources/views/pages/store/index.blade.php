@@ -12,6 +12,6 @@
     </div>
 
     <h1 class="text-primary">
-        <center>This is the dashboard page</center>
+        <center>This is the store page</center>
     </h1>
 </x-app-layout>

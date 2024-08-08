@@ -18,4 +18,20 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
+// Make route for the transaction,reports, stocks pages
+Route::get('/transactions', function () {
+    return view('pages.transactions.index');
+})->middleware(['auth', 'verified'])->name('transactions');
+
+Route::get('/reports', function () {
+    return view('pages.reports.index');
+})->middleware(['auth', 'verified'])->name('reports');
+
+Route::get('/stocks', function () {
+    return view('pages.stocks.index');
+})->middleware(['auth', 'verified'])->name('stocks');
+
+
+
+
 require __DIR__ . '/auth.php';

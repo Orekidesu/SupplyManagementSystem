@@ -32,7 +32,9 @@
     </div> --}}
     <div class="min-h-screen bg-gray-100 flex flex-row text-text">
         <div class="fixed h-full overflow-hidden">
-            @include('layouts.navigation')
+            {{-- @include('layouts.navigation') --}}
+
+            @livewire('navigation.navigation-bar')
         </div>
 
         <!-- Page Content -->
