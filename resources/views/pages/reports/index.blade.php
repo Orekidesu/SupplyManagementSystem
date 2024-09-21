@@ -10,7 +10,16 @@
         </div>
     </div>
 
-    <h1 class="text-primary">
+    {{-- <h1 class="text-primary">
         <center>This is the reports page</center>
-    </h1>
+    </h1> --}}
+    <div class="text-black">
+        <div x-data = "{open: false, toggle(){this.open = !this.open}}">
+            <button @click="toggle()">Toggle Content</button>
+
+            <div x-show="open">
+                Content...
+            </div>
+        </div>
+    </div>
 </x-app-layout>
